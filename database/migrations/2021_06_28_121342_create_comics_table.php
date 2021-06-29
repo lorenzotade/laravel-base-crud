@@ -21,7 +21,7 @@ class CreateComicsTable extends Migration
             $table->string('image')->nullable();
             $table->float('price',6,2)->unsigned();
             $table->string('series');
-            $table->date('sale_date');
+            $table->string('sale_date', 12)->default('2021-01-01');
             $table->string('type', 20);
             $table->timestamps();
         });
