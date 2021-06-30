@@ -14,20 +14,19 @@
       <input type="text" name="title" id="title" class="form-control">
     </div>
     <div class="type my-2">
-      <label for="type" class="form-label" class="form-label">Type:</label>
-      <select name="type" id="type" class="form-control">
-        <option value="">Select a type</option>
-        <option value="comic book">Comic Book</option>
-        <option value="graphic novel">Graphic Novel</option>
+      <label for="type" class="form-label">Type:</label>
+      <select  id="type" name="type" class="form-control">
+          <option value="comic book">Comic Book</option>
+          <option value="graphic novel">Graphic Novel</option>
       </select>
-    </div>
+  </div>
     <div class="series my-2">
       <label for="series" class="form-label">Series:</label>
       <input type="text" name="series" id="series" class="form-control">
     </div>
-    <div class="sale-date my-2">
-      <label for="sale-date" class="label-control">Sale date:</label>
-      <input type="text" name="sale-date" id="sale-date" class="form-control">
+    <div class="sale_date my-2">
+      <label for="sale_date" class="label-control">Sale date:</label>
+      <input type="text" name="sale_date" id="sale_date" class="form-control">
     </div>
     <div class="price my-2">
       <label for="price" class="label-control">Price:</label>
